@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- ===== Header ===== -->
     <h1>Habit Tracker</h1>
 
+    <!-- ===== Add habit form ===== -->
     <form id="add_habit_form">
-        <input type="text" id="add_habit_txt" placeholder="habit name" class="selection" required>
+        <input type="text" id="add_habit_txt" class="selection" placeholder="habit name" required>
         <input type="color" id="add_habit_color" class="selection">
         <button id="add_habit_button" class="selection">Add Habit</button>
     </form>
 
-    <div id="habits">
-
-    </div>
+    <!-- ===== Habit cards (filled by app.js) ===== -->
+    <div id="habits"></div>
 
     <script src="app.js"></script>
 </body>
