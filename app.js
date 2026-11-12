@@ -31,7 +31,6 @@ form.addEventListener("submit",function(event){
         square.classList.add("square");
         grid.append(square);
     }
-    habit.append(grid);
     title.textContent=info.name;
     habit.classList.add("card");
     habit.id="card"+i;

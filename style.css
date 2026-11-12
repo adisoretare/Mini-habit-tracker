@@ -56,10 +56,10 @@ h1{
     margin-top: 40px;
 }
 .card{
- border: 2px solid var(--color);
-    border-radius: 10px;
-    padding: 10px;
-    font-family: Arial;
+   border: 4px solid var(--color);
+    border-radius: 24px;
+    padding: 20px;
+    background-color: rgb(254, 213, 160);
 }
 
 .grid{
@@ -71,6 +71,9 @@ h1{
 .square{
     width: 30px;
     height: 30px;
-    border: 1.5px solid var(--color);
+    border: 1.5px solid black;
     border-radius: 6px;
+}
+.square.done{
+    background-color: var(--color);
 }
